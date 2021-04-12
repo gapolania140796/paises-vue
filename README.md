@@ -32,7 +32,7 @@ npm run serve
 
 ## Autor ✒️
 
-* **Gustavo Polania** - *Trabajo Inicial* - [gapolania140796](https://github.com/gapolania140796/paises-vue)
+* **Gustavo Polania** - [gapolania140796](https://github.com/gapolania140796/paises-vue)
 
 
 
