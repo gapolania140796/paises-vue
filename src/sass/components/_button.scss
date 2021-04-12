@@ -1,0 +1,94 @@
+.btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn-primary {
+    text-transform: none;
+    box-shadow: 0 0 7rem rgba(0, 0, 0, 0.29);
+    font-size: 16rem !important;
+    font-weight: 300;
+    color: #111517;
+
+
+
+    @media #{$break2}, #{$break3},
+    #{$break4} {
+        
+
+        width: 136rem;
+        height: 40rem;
+    }
+
+    @media #{$break4} {
+        margin: 80rem 0;
+    }
+
+    @media #{$break2}, #{$break3} {
+        margin: 40rem 0;
+    
+    }
+
+    @media #{$break1} {
+        height: 32rem;
+        width: 104rem;
+        border-radius: 2rem;
+        margin-top: 40rem;
+        margin-bottom: 64rem;
+    }
+}
+
+.btn-secondary {
+    box-shadow: 0 0 4rem 1rem rgba(0, 0, 0, 0.1);
+    text-transform: none;
+    font-size: 14rem !important;
+    min-width: 96rem;
+    height: 28rem !important;
+
+    margin: 10rem;
+
+    &:first-child {
+        margin-left: 12rem;
+    }
+
+    &:not(:last-child) {
+        margin-right: 10rem;
+    }
+
+    @media #{$break2}, #{$break3},
+    #{$break4} {
+        
+    }
+
+    @media #{$break1} {
+
+    }
+}
+
+.theme--light.v-btn:not(.v-btn--flat):not(.v-btn--text):not(.v-btn--outlined) {
+    background-color: $color-white;
+}
+
+
+.btn-primary,
+.btn-secondary {
+
+
+    border-color: transparent;
+
+
+    &:not(:disabled):not(.disabled).active,
+    &:not(:disabled):not(.disabled):active,
+    &:hover {
+
+    }
+
+    &:focus {
+        box-shadow: none;
+        outline: 0;
+        border-color: transparent;
+    }
+
+
+}

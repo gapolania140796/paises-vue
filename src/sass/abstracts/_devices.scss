@@ -1,0 +1,5 @@
+/* Configuracion de las dimensiones por cada tipo de dispositivo */
+$break1: "(max-width: 765px)"; // Celulares
+$break2: "(min-width: 766px) and (max-width: 1199px)"; // Tablets
+$break3: "(min-width: 1200px) and (max-width: 1366px)"; // Pantallas grandes y laptos
+$break4: "(min-width: 1367px)"; // Pantallas muy grandes

@@ -1,0 +1,49 @@
+.main-header {
+
+    &__link {
+        text-decoration: none;
+    }
+
+    .v-toolbar__title {
+        
+        font-weight: 700;
+
+        @media #{$break2},
+        #{$break3},
+        #{$break4} {
+            font-size: 24rem;
+        }
+
+        @media #{$break1} {
+            font-size: 14rem;
+        }
+    }
+
+    .v-btn__content {
+        text-transform: none;
+        font-weight: 600;
+        
+
+        @media #{$break2},
+        #{$break3},
+        #{$break4} {
+            font-size: 16rem;
+        }
+
+        @media #{$break1} {
+            font-size: 12rem;
+        }
+
+        .v-icon {
+            margin-right: 10rem;
+
+            @media #{$break1} {
+                font-size: 18rem;
+            }
+        }
+    }
+}
+
+.v-toolbar {
+    box-shadow: 0 2rem 4rem rgba(0, 0, 0, 0.06) !important;
+}

@@ -1,0 +1,48 @@
+/* Aquí se ajustan los estilos generales del aplicativo, coomo las fuentes los colores del aplicativo.*/
+
+
+html {
+    font-size: 1px !important; // 1rem = 1px
+}
+
+body {
+    font-size: 16rem;
+}
+
+.v-application {
+    font-family: $font-primary !important;
+}
+
+
+.theme--light.v-application {
+    background: $color-grayish;
+}
+
+.theme--dark.v-application {
+    background: $color-dark;
+}
+
+.theme--dark.v-sheet {
+    background: $color-dark-2;
+}
+
+.theme--dark.v-text-field--solo > .v-input__control > .v-input__slot {
+    background: $color-dark-2;
+}
+
+.theme--dark.v-btn:not(.v-btn--flat):not(.v-btn--text):not(.v-btn--outlined) {
+    background: $color-dark-2;
+}
+
+.theme--dark.v-card > .v-card__text, .theme--dark.v-card .v-card__subtitle {
+    color: $color-white !important;
+}
+
+.theme--dark .countries-section__input {
+    background: $color-dark-2;
+    color: $color-white;
+
+    &::placeholder {
+        color: $color-white;
+    }
+}
