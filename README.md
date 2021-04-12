@@ -1,6 +1,13 @@
-### REST-Countries Application
+### Api Paises - Gustavo Polania
 
-#### Global pre-requisites
+Muestra y filtra todos los paises por continente, ademas muestra los paises vecinos.
+
+## Comenzando 🚀
+_Estas instrucciones te permitirán obtener una copia del proyecto en funcionamiento en tu máquina local para propósitos de desarrollo y pruebas._
+*git clone https://github.com/gapolania140796/paises-vue*
+Mira **Deployment** para conocer como desplegar el proyecto.
+
+### Pre-requisitos 📋
 - [Node.js](https://nodejs.org/en/) (v12.x or higher, preferably latest LTS)
 - [Vue CLI](https://www.npmjs.com/package/@vue/cli) (v4.0.5 or higher)
 
