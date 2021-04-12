@@ -12,10 +12,8 @@ git clone https://github.com/gapolania140796/paises-vue
 
 ### Instalación 🔧
 
-_Una serie de ejemplos paso a paso que te dice lo que debes ejecutar para tener un entorno de desarrollo ejecutandose_
-
 Navegue hasta el directorio raíz del repositorio y ejecute los siguientes comandos:
-
+```
 npm install
 npm run build
 npm run serve
